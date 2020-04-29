@@ -17,6 +17,7 @@ class App(QtWidgets.QWidget):
         self.set_default_values()
         self.setup_css()
         self.setup_connection()
+        self.resize(500, 50)
 
     def setup_ui(self):
         self.layout.addWidget(self.cbb_devisesFrom)
